@@ -1,0 +1,84 @@
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Vehicle</h1>
+    
+
+    <div class="btn-toolbar mb-2 mb-md 0">
+        <div class="btn-group me-2">
+           <button class="btn btn-sm btn-outline-secondary">?</button>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col py-3">
+
+
+    <div class="row">
+        <div class="col">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Vehicles</a></li>
+                    <li class="breadcrumb-item active">New Vehicle</li>
+                </ol>
+            </nav>
+        </div>
+
+        <div class="col text-end fw-lighter">
+            <b>VehicleId</b>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+<form action="/add" method="POST">
+    <div class="row form-group mb-4">
+        <div class="ol">
+            <label for="firstName">Vehicle Name</label>
+            <input type="text" class="form-control" id="vehicleName" name="vehicleName" value="" placeholder="Vehicle Name" required>
+
+        </div>
+
+
+
+
+
+        <div class="ol">
+            <label for="lastName">Vehicle Model</label>
+            <input type="text" class="form-control" id="vehicleModel" name="vehicleModel" value="" placeholder="Vehicle Model" required>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+      <div class="form-group mb-4">
+
+          <label for="details">Vehicle Details</label>
+          <textarea class="form-control" name="details" id="details" cols="30" rows="7" placeholder="Vehicle Details"></textarea>
+            
+
+      </div>
+    
+
+
+      <div class="form-group mb-4">
+        <button type="submit" class="btn btn-primary">Add Vehicle</button>
+    </div>
+    
+
+
+
+
+
+    
+
+
+</form>
